@@ -168,6 +168,4 @@ public class PoS {
 	public String salesBreakdown() {
 		return this.sales.toString();
 	}
-
-	
 }
