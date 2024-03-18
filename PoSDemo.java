@@ -308,17 +308,13 @@ public class PoSDemo {
 				
 				// If the user inputs an invalid option
 				default:
-					System.out.println("Sorry that is not a valid choice. Try again.");
-							
+					System.out.println("Sorry that is not a valid choice. Try again.");			
 				}
-		
 		} 
 		// While loop continues until input by user is 0
 		while (selection != 0);
 		
 		// Close scanner
 		scan.close();
-		
 	 } 
-	
 }
